@@ -1,0 +1,45 @@
+[
+    {
+      "id": 2,
+      "priority": 2,
+      "action": { "type": "block" },
+      "condition": {"urlFilter": "google-analytics.com/*"}
+    },
+    {
+      "id": 1,
+      "priority": 1,
+      "action": { "type": "block" },
+      "condition": {"urlFilter": "whoami" }
+    }
+    ,
+    {
+      "id": 3,
+      "priority": 4,
+      "action": { "type": "block" },
+      "condition": {"urlFilter": "www.hashemian.com/" }
+    },
+    {
+      "id": 4,
+      "priority": 1,
+      "action": { "type": "block" },
+      "condition": {"urlFilter": "https://bam.nr-data.net" }
+    },
+    {
+      "id": 5,
+      "priority": 2,
+      "action": { "type": "block" },
+      "condition": {"urlFilter": "https://adservice.google.*/*" }
+    },
+    {
+      "id": 6,
+      "priority": 2,
+      "action": { "type": "block" },
+      "condition": {"urlFilter": "https://c.amazon-adsystem.*/*" }
+    },
+    {
+      "id": 7,
+      "priority": 1,
+      "action": { "type": "block" },
+      "condition": {"urlFilter": "*//*securepubads*/*" }
+    }
+]
